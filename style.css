@@ -1,0 +1,267 @@
+.services-paras
+{
+       background-image: linear-gradient(90deg, rgba(0, 204, 255, 0.356), rgba(255, 0, 255, 0.151));
+    }
+
+.div-services
+{
+ margin-top: 30px;
+}
+
+.client-logos
+{ 
+    height: 20px;
+}
+
+.fontawesome-circle
+
+{
+   font-size: 5rem;
+    color: rgba(0, 110, 255, 0.726)
+}
+
+.fontawesome-size
+{
+    margin-bottom: 5px;
+}
+
+.service-css
+{
+background-color: rgba(54, 88, 104, 0.185); border: solid rgba(0, 0, 0, 0.384) 1px;  
+margin-right: 10px;
+/* padding: 5px; */
+border-radius: 15px;
+
+}
+
+.service-hover :hover
+{
+   color: white;
+   transition: 0.5s;
+   /* transform:rotate(360deg); */
+   color: rgb(111, 185, 207) ;
+}
+
+.service-highs
+{
+/*     
+   transition: 1.5s;
+   transform:rotate(360deg); */
+   background: rgba(230, 245, 252, 0.274);
+}
+
+.skill
+{
+    width: 160px;
+    height: 160px;
+    /* background: cadetblue; */
+    position: relative;
+}
+
+
+.outer
+{
+
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+        padding: 20px;
+
+        box-shadow: 6px 6px 10px -1px ,
+         -6px -6px 10px -1px  rgba(255, 255, 255, 0.7);
+}
+
+.inner
+{
+height: 120px;
+width: 120px;
+border-radius: 50%;
+display: flex;
+align-items: center; 
+justify-content: center;
+box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+            inset -4px -4px 6px -1px   rgba(255, 255, 255, 0.7),
+            -0.5px -0.5px 0px  rgba(255, 255, 255, 1),
+            0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+            0px 12px 10px -10px  rgba(0, 0,0, 0.05);
+}
+
+#number
+{
+    font-weight: 600px;
+    color: #555;
+
+}
+
+.grey
+{
+ 
+  animation: greychange 6s;
+
+
+}
+
+@keyframes greychange {
+  
+    from {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+ 
+    }
+    to {opacity: 1;}
+
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.head-cont 
+{
+  margin-top: 2rem;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  position: relative;
+  animation: mymove 3s  ;
+  opacity: 0;
+  font-weight: bold;
+  animation-fill-mode: forwards;
+  font-family: 'Playfair Display', serif;
+}
+
+
+@keyframes mymove
+ {
+  from {left: 0px;}
+  to {left: 100px;  opacity: 1; } 
+}
+
+circle
+{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;    
+    stroke-dasharray: 430;
+    stroke-dashoffset: 430;
+    animation: anim 2s linear forwards;
+}
+
+svg
+
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+    @keyframes anim {
+        100%
+        {
+            stroke-dashoffset: 30;
+        }
+    }
+
+    .left-anim
+    {
+          
+  position: relative;
+  animation: anime 3s  ;
+  opacity: 0;
+  animation-fill-mode: forwards;
+    }
+
+
+@keyframes anime
+ {
+  from {left: -50px;}
+  to {left: 0px;  opacity: 1; } 
+}
+
+.left-animmm
+{
+      position: relative;
+  animation: animati 3s ;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animati
+ {
+  from {left: 0px;}
+  to {left:  10px;  opacity: 1; } 
+}
+
+
+#timeline-1
+{
+  margin-top: 5rem;
+  width: 200px;
+  float: left;
+  position: relative;
+  left: 250px;
+  padding: 15px;
+border: solid 5px rgb(0, 126, 21) ;
+border-radius: 15%;
+font-size: px;
+padding-top: 2px;
+
+}
+#timeline-2
+{
+  top: 16rem;
+  width: 200px;
+  float: right;
+  position: relative;
+  right: 250px;
+  padding: 15px;
+  
+border: solid 5px rgb(0, 126, 21);
+border-radius: 15%;
+  
+}
+#timeline-3
+{
+   width: 200px;
+   float: left;
+  position: relative;
+  left: 50px;
+  top: 30rem;
+  padding: 13px;
+border: solid 5px rgb(0, 126, 21) ;
+border-radius: 15%;
+}
+
+#branch-1
+{
+   border-left: 10px solid rgb(97, 25, 16);
+                height: 169px;
+                position: static;
+                margin-left: 86px;
+                float: left;
+                transform: rotate(-50deg);
+                margin-top: 236px;
+}
+
+#branch-2
+{
+   border-left: 10px solid rgb(97, 25, 16);
+                height: 170px;
+                position: static;
+               margin-left: 1px;
+                float: left;
+                transform: rotate(-50deg);
+                margin-top: 660px;
+}
+
+#branch-3
+{ 
+                border-left: 10px solid rgb(97, 25, 16);
+                height: 145px;
+                position: static;
+                margin-left: 112px;
+                float: left;
+                transform: rotate(50deg);
+                margin-top: 430px;
+}

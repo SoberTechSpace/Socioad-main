@@ -1,0 +1,25 @@
+do you have hands on experiece with any project?
+
+which front end framework do you use? like like bootsrap or anguler.js 
+
+have you ever used mysql database for any website? 
+
+have you used php or node.js or other technology 
+
+How would you describe the role of a Web Developer? What are the most important aspects of the job and why?
+
+	***TECHNICAL QUETIONS***
+
+What is API can you suggest any example of API
+
+what is CDN have you ever used CDN?
+
+As a Web Developer, how do you optimize your site’s loading time?
+
+Walk me through the process of creating a web page from scratch.
+
+tell me about selectors in html	
+
+how do you delete a perticular column from the table
+
+how do you delete a perticular column from the table

@@ -1,0 +1,855 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <title>Welcome to Socio Advertisements</title>
+
+  <!-- External css -->
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- fontswesome CDN-->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="css/mk_charts.css" />
+  <script src="js/mk_charts.js"></script>
+
+  <!-- Jquery -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- animate.css working -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+</head>
+
+<!-- navigation bar  -->
+
+<body>
+  <!--   
+  background-image:url(./images/typewriter.jpg); color: rgba(255, 255, 255, 0.247) ; padding-bottom: 5rem;
+  background-position: center; background-repeat: no-repeat; background-size: cover; height: 100%; -->
+  <div class="container-fluid" style=" background-image: url(./images/church.jpg); color: rgba(255, 255, 255, 0.247) ; padding-bottom: 5rem;
+  background-position: center; background-repeat: no-repeat; background-size: cover; height: 100%; ">
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="border-radius:50px; backdrop-filter: blur(100px); z-index: 1;">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#"> <img src="./images/SocioAd logo.png" width="150px" alt="logo" style="margin-left: 50px;"> </a>
+          </li>
+          <li class="nav-item dropdown" style="margin-left: 80px; margin-top: 30px;">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <h5>Services</h5>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="size: 50px;">
+              <a class="dropdown-item" href="./Service.html" style="padding-top: 10px;"> <img src="./images/social-media.png" height="25px" alt="icon"> <strong>Social Media Marketing </strong> </a>
+              <a class="dropdown-item" href="./Service.html" style="padding-top: 10px;"> <img src="./images/digital-marketing.png" height="25px" alt="icon"> <strong> Digital Marketing</strong></a>
+              <a class="dropdown-item" href="./Service.html" style="padding-top: 10px;"> <img src="./images/advertising.png" height="25px" alt="icon"> <strong>Outdoor Advertising</strong> </a>
+              <a class="dropdown-item" href="./Service.html" style="padding-top: 10px;"> <img src="./images/programming.png" height="25px" alt="icon"> <strong>Website Development</strong> </a>
+              <a class="dropdown-item" href="./Service.html" style="padding-top: 10px;"> <img src="./images/image.png" height="25px" alt="icon"> <strong> Photo Video Advertising</strong> </a>
+              <a class="dropdown-item" href="./Service.html" style="padding-top: 10px;"> <img src="./images/analytics.png" height="25px" alt="icon"> <strong> Business Start Up Services</strong></a>
+              <a class="dropdown-item" href="./Service.html" style="padding-top: 10px;"> <img src="./images/statistics.png" height="25px" alt="icon"> <strong> Business Marketing Stratergy</strong> </a>
+
+              <div class="dropdown-divider"></div>
+              <center> <button class="btn btn-success"> Get A Quote!</button>
+              </center>
+            </div>
+          </li>
+         
+          <li class="nav-item" style="margin: 32px 20px ;">
+            <a class="nav-link" href="./Blogs.html">
+              <h5>Blogs</h5>
+            </a>
+          </li>
+
+          <li class="nav-item" style="margin: 32px 20px ;">
+            <a class="nav-link" href="./About_Us.html">
+              <h5>About us</h5>
+            </a>
+          </li>
+          <li class="nav-item" style="margin: 32px 20px ;">
+            <a class="nav-link" href="./Contatct-Us.html">
+              <h5>Contact Us</h5>
+            </a>
+          </li>
+
+
+          <li class="nav-item" style="margin: 32px 20px ;">
+            <a class="nav-link" href="./Careers.html">
+              <h5>Careers</h5>
+            </a>
+          </li> 
+
+            <li class="nav-item" style="margin: 32px 20px ;">
+              <a class="nav-link" href="./Franchises.html">
+                <h5>Franchises</h5>
+              </a>
+            </li>
+          <li class="nav-item" style="margin: 32px 20px ;">
+            <a class="nav-link" href="./Rewards.html">
+              <h5> Rewards! <i class="fa  fa-star" style="color: goldenrod;"></i></h5>
+            </a>
+          </li>
+        </ul>
+
+        
+
+        <form class="form-inline">
+          <button class="btn btn-warning" type="submit">Get In Touch!</button>
+        </form>
+      </div>
+    </nav>
+
+
+    <!-- carousal  -->
+
+    <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="padding-top: 50px;" >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/Social-media.jpg"  height="500px"class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/website.jpg"  height="500px" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/business-banner.jpg" height="500px" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div> -->
+
+
+    <div class="container ">
+
+      <h1 class="head-cont part1" style="font-size: 50px; color: rgb(216, 229, 245);"> Socio Advertisements</h1>
+      <h2 class="head-cont" style="font-size: 20; color: rgb(216, 229, 245); ">Business Simplified!</h2>
+    </div>
+  
+    <!-- ser11vices highlights -->
+
+    <div id="main" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" style="padding-top: 5rem; width: 80rem; display: flex; flex-direction: row-reverse;">
+      <div style=" width: 150px; height: 200px; padding: 10px; margin-right: 5rem; border: 2px solid rgb(190, 164, 164); color: azure; " class="grey">
+        <center>
+          <h6>Quality Assurance</h6> <img src="./images/quality.png" height="100px" alt=""> <br> <img src="./images/rating.png" height="50px" alt="">
+        </center>
+      </div>
+      <div style=" width: 150px; height: 200px; padding: 10px;margin-right: 5rem; border: 2px solid rgb(190, 164, 164); color: azure; " class="grey">
+        <center>
+          <h6>Timely Deliveries </h6><img src="./images/timetable.png" height="100px" alt=""> <br> <img src="./images/rating.png" height="50px" alt="">
+        </center>
+      </div>
+      <div style=" width: 150px ;height: 200px; padding: 10px;margin-right: 5rem; border: 2px solid rgb(190, 164, 164); color: azure; " class="grey">
+        <center>
+          <h6> Exmperienced Employees</h6> <img src="./images/team.png" height="100px" alt=""> <br> <img src="./images/rating.png" height="50px" alt="">
+        </center>
+      </div>
+      <div style="width: 150px;height: 200px; padding: 10px; margin-right: 5rem; border: 2px solid rgb(190, 164, 164); color: azure; " class="grey">
+        <center>
+          <h6>Customer Satisfaction</h6> <img src="./images/satisfaction.png" height="100px" alt=""> <br> <img src="./images/rating.png" height="50px" alt="">
+        </center>
+      </div>
+    </div>
+</div>
+
+
+  <!-- Services  -->
+  <div class="container-fluid" data-aos="fade-up" data-aos-offset="200" data-aos-duration="800" style="background-color: rgba(110, 107, 107, 0.048); padding-bottom: 80px;">
+    <div class="container" style="margin-top: 100px; padding: 20px;">
+      <div class="row div-services">
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-2 service-css ">
+          <center>
+            <div class="service-hover" style="padding-top: 12px;">
+              <i class="fa fa-2x fa-user-circle"></i>
+            </div>
+            <h6>
+              Social Media Marketing
+            </h6>
+          </center>
+        </div>
+        <div class="col-md-2 service-css" style="padding-top: 12px;">
+          <center>
+
+            <div class="service-hover">
+              <i class=" fa fa-2x fa-laptop-code"></i>
+            </div>
+
+
+            <h6>Web development</h6>
+          </center>
+
+        </div>
+
+        <div class="col-md-2 service-css">
+          <center>
+            <div class="service-hover " style="padding-top: 12px;">
+              <i class="fa fa-2x fa-ad"></i>
+            </div>
+
+            <h6>
+              Digital Marketing Services
+            </h6>
+          </center>
+        </div>
+
+
+        <div class="col-md-2 service-css" style="padding-top: 12px;">
+          <center>
+            <div class="service-hover">
+              <i class="fa fa-2x fa-atom"></i>
+            </div>
+
+            <h6>
+              Outdoor Advertising Services
+            </h6>
+          </center>
+        </div>
+
+        <div class="col-md-2 service-css" style="padding-top: 12px;">
+          <center>
+            <div class="service-hover">
+              <i class="fa fa-2x fa-photo-video"></i>
+            </div>
+
+            <h6>
+              Photography And Videography Services
+            </h6>
+          </center>
+        </div>
+
+        <div class="col-md-1">
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row div-services">
+        <div class="col-md-2"></div>
+
+
+        <div class="col-md-2 service-css">
+          <center>
+
+            <div class="service-hover" style="padding-top: 12px;">
+              <i class="fa fa-2x fa-head-side-virus"></i>
+            </div>
+            <h6> Business Startup Services</h6>
+          </center>
+        </div>
+
+        <div class="col-md-2 service-css">
+          <center>
+            <div class="service-hover" style="padding-top: 12px;">
+              <i class="fa fa-2x  fa-chart-line"></i>
+            </div>
+
+            <h6>Business Consultancy Services</h6>
+          </center>
+        </div>
+
+        <div class="col-md-2 service-css">
+          <center>
+            <div class="service-hover" style="padding-top: 12px;">
+              <i class="fa fa-2x fa-broadcast-tower"></i>
+            </div>
+
+            <h6>Radio Advertising</h6>
+          </center>
+        </div>
+
+        <div class="col-md-2 service-css">
+          <center>
+            <div class="service-hover" style="padding-top: 12px;">
+              <i class="fa fa-2x fa-tv"></i>
+            </div>
+
+            <h6> Tv Advertising</h6>
+          </center>
+        </div>
+
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" data-aos="fade-up" data-aos-offset="200" data-aos-duration="800" style="padding: 100px;">
+    <div class="row">
+
+      <div class="col-md-1">
+        <!-- blank -->
+      </div>
+
+      <div class="col-md-2 service-highs">
+
+        <div class="skill">
+          <div class="outer">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+              <defs>
+                <linearGradient id="GradientColor">
+                  <stop offset="0%" stop-color="#e91e63" />
+                  <stop offset="100%" stop-color="#673ab7" />
+                </linearGradient>
+              </defs>
+              <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+            </svg>
+
+            <div class="inner">
+              <div id="number">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <script>
+          let number = document.getElementById("number");
+          let counter = 0;
+          setInterval(() => {
+            if (counter == 90) {
+              clearInterval();
+            } else {
+
+              counter += 1;
+              number.innerHTML = counter + "%";
+            }
+          }, 20);
+        </script>
+
+        <center>
+          <h6>Graphic Designing <br>90%</h6>
+        </center>
+
+      </div>
+
+      <div class="col-md-2 service-highs">
+
+
+
+        <div class="skill">
+          <div class="outer">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+              <defs>
+                <linearGradient id="GradientColor">
+                  <stop offset="0%" stop-color="#e91e63" />
+                  <stop offset="100%" stop-color="#673ab7" />
+                </linearGradient>
+              </defs>
+              <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+            </svg>
+
+            <div class="inner">
+              <div id="number">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <script>
+          let number = document.getElementById("number");
+          let counter = 0;
+          setInterval(() => {
+            if (counter == 90) {
+              clearInterval();
+            } else {
+
+              counter += 1;
+              number.innerHTML = counter + "%";
+            }
+          }, 20);
+        </script>
+
+        <center>
+
+          <h6>Content Writing <br>92%</h6>
+        </center>
+
+      </div>
+
+      <div class="col-md-2 service-highs">
+
+
+        <div class="skill">
+          <div class="outer">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+              <defs>
+                <linearGradient id="GradientColor">
+                  <stop offset="0%" stop-color="#e91e63" />
+                  <stop offset="100%" stop-color="#673ab7" />
+                </linearGradient>
+              </defs>
+              <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+            </svg>
+
+            <div class="inner">
+              <div id="number1">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <script>
+          let numnum = document.getElementById("numnum");
+          let counter = 0;
+          setInterval(() => {
+            if (counter == 95) {
+              clearInterval();
+            } else {
+
+              counter += 1;
+              numnum.innerHTML = counter + "%";
+            }
+          }, 100);
+        </script>
+
+
+        <center>
+          <h6>Marketing Consultancy <br>95%</h6>
+        </center>
+      </div>
+
+      <div class="col-md-2 service-highs">
+
+        <div class="skill">
+          <div class="outer">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+              <defs>
+                <linearGradient id="GradientColor">
+                  <stop offset="0%" stop-color="#e91e63" />
+                  <stop offset="100%" stop-color="#673ab7" />
+                </linearGradient>
+              </defs>
+              <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+            </svg>
+
+            <div class="inner">
+              <div id="number">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <script>
+          let number = document.getElementById("number");
+          let counter = 0;
+          setInterval(() => {
+            if (counter == 90) {
+              clearInterval();
+            } else {
+
+              counter += 1;
+              number.innerHTML = counter + "%";
+            }
+          }, 20);
+        </script>
+        <center>
+          <h6>Campaign Strategy <br> 97%</h6>
+        </center>
+
+      </div>
+
+      <div class="col-md-2 service-highs">
+        <div class="skill">
+          <div class="outer">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+              <defs>
+                <linearGradient id="GradientColor">
+                  <stop offset="0%" stop-color="#e91e63" />
+                  <stop offset="100%" stop-color="#673ab7" />
+                </linearGradient>
+              </defs>
+              <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+            </svg>
+
+            <div class="inner">
+              <div id="number">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <script>
+          let number = document.getElementById("number");
+          let counter = 0;
+          setInterval(() => {
+            if (counter == 90) {
+              clearInterval();
+            } else {
+
+              counter += 1;
+              number.innerHTML = counter + "%";
+            }
+          }, 20);
+        </script>
+
+        <center>
+          <h6>Targeted Results <br> 90%</h6>
+        </center>
+      </div>
+      <div class="col-md-1">
+        <!-- blank -->
+      </div>
+    </div>
+
+  </div>
+  <div class="mkCharts" data-percent="35"></div>
+  <div class="mkCharts" data-percent="45" data-color="#654321"></div>
+  <div class="mkCharts" data-percent="45" data-size="125"></div>
+  <div class="mkCharts" data-percent="45" data-stroke="3"></div>
+
+  <div class="container-fluid " data-aos="fade-up" data-aos-offset="80"  data-aos-duration="800" style="padding: 50px; background-color: rgba(181, 199, 233, 0.247); ">+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-1">
+
+        </div>
+
+        <div class="col-md-2 query-css">
+          <center>
+            <i class="fa fa-2x fa-lightbulb fontawesome-size jquery-css" style="font-size: 2rem; color: rgba(243, 80, 43, 0.92); "></i>
+            <h6>Creative Ideas</h6>
+          </center>
+        </div>
+
+        <div class="col-md-2">
+          <center>
+            <i class="fa fa-2x  fa-check-circle fontawesome-size" style="font-size: 2rem; color: rgba(243, 80, 43, 0.92);"></i>
+            <h6>10+ <br> Brands Evolved</h6>
+          </center>
+        </div>
+
+        <div class="col-md-2">
+          <center>
+            <i class="fa fa-2x fa-award fontawesome-size" style="font-size: 2rem; color: rgba(243, 80, 43, 0.92);"></i>
+
+            <h6> 100+ <br> Marketing Campaigns</h6>
+          </center>
+
+        </div>
+
+        <div class="col-md-2">
+          <center>
+            <i class="fa fa-2x fa-calendar-check fontawesome-size" style="font-size: 2rem; color: rgba(243, 80, 43, 0.92);"></i>
+            <h6>
+
+              5000+ <br> Generated Leads
+          </center>
+          </h6>
+
+        </div>
+
+
+        <div class="col-md-2">
+          <center>
+            <i class=" fa fa-2x fa-bullhorn fontawesome-size" style="font-size: 2rem; color: rgba(243, 80, 43, 0.92);"></i>
+            <h6>100+ Advertisements</h6>
+          </center>
+        </div>
+
+        <div class="col-md-1">
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- logos -->
+
+
+  <!-- carousal  -->
+  <div class="container">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="padding-top: spx;">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/corol-img-01.jpg" height="200px" class="d-block w-10" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/corol-img-02.jpg" height="200px" class="d-block w-10" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/corol-img-03.jpg" height="200px" class="d-block w-10" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+
+  <div class="container" style="">
+    <center>
+      <h5 style="margin: 70px;">Our Happy Customers!</h5>
+    </center>
+    <div class="row">
+      <div class="col-md-3">
+        <img src="./images/anahata-logo.png" height="170px" alt="">
+
+      </div>
+
+      <div class="col-md-3">
+        <img src="./images/nita-logo.png" height="110px" alt="" class="client-logo">
+      </div>
+
+      <div class="col-md-3">
+        <img src="./images/tmv-logo.png" height="135px" alt="" class="client-logo">
+      </div>
+
+      <div class="col-md-3">
+
+        <img src="./images/elysian-logo.png" height="150px" alt="" class="client-logo">
+      </div>
+
+
+    </div>
+
+  </div>
+
+
+
+
+  <!-- logos 2nd row -->
+
+  < <div class="container">
+    <div class="row">
+
+      <div class="col-md-3">
+        <img src="./images/aadichakra-logo.jpg" height="120px" alt="">
+
+      </div>
+
+      <div class="col-md-3">
+        <img src="./images/enlight-outdoors.jpg" height="180px" alt="" class="client-logo">
+      </div>
+
+      <div class="col-md-3">
+        <img src="./images/prabhudesai-logo.png" height="120px" alt="" class="client-logo">
+      </div>
+
+      <div class="col-md-3">
+
+        <img src="./images/vintage-studio.png" height="135px" alt="" class="client-logo">
+      </div>
+
+
+    </div>
+
+    </div>
+
+    <!-- testimonials -->
+
+
+    <h5 style="margin: 100px;">
+      <center> Testimonials</center>
+    </h5>
+
+
+
+    <!-- form -->
+
+    <div class="container-fluid" style="margin-top: 100px; background-image: url(./images/Gmap-ss-BW.png)">
+      <div class="row div-services">
+        <div class="col-md-1"></div>
+        <div class="col-md-4">
+          <h6>Connect With Us </h6>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1" style="font-size: 14px;">Name </label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name" style="font-size: 12px;">
+              <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1" style="font-size: 14px;">Email</label>
+              <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email" style="font-size: 12px;">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1" style="font-size: 14px;">Phone</label>
+              <input type="mobile" class="form-control" id="exampleInputPassword1" placeholder="Mobile Number" style="font-size: 12px;">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+
+
+        <!-- officer address -->
+
+        <div class="col-md-3">
+          <h6>Office Address </h6>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d370.8940179116026!2d73.82262513197388!3d18.500211965652955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf0c775463eb%3A0x178eff51f12b6ef!2sSocio%20ad%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1631703798292!5m2!1sen!2sin" width="650" height=350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- bottom section -->
+
+    <div class="container-fluid bottom-right" style="  background-color: rgba(181, 199, 233, 0.247);">
+      <!-- background-image: radial-gradient(rgb(211, 204, 204) 80%, rgba(177, 119, 119, 0.281) 15%); -->
+      <div class="row">
+        <div style="padding: 20px;" class="col-md-3">
+          <ul class="list-group"></ul>
+          <center>
+            <h6 style="padding-bottom: 3rem;">
+              Services
+            </h6>
+          </center>
+
+          <div class="d-flex justify-content-start" style="padding-left: 5px ;">
+            <a href="" style="font-size: 14px;">Digital Marketing</a>
+          </div>
+
+          <div class="d-flex justify-content-start" style="padding-left: 5px ;">
+            <a href=" " style="font-size: 14px;">Outdoor Advertising</a>
+          </div>
+
+          <div class="d-flex justify-content-start" style="padding-left: 5px ;">
+            <a href="" style="font-size: 14px;">Website Development</a>
+          </div>
+
+          <div class="d-flex justify-content-start" style="padding-left: 5px ;">
+            <a href="" style="font-size: 14px;">Social Media Marketing</a>
+          </div>
+
+          <div class="d-flex justify-content-start" style="padding-left: 5px ;">
+            <a href="" style="font-size: 14px;">Photo Video Advertising</a>
+          </div>
+
+          <div class="d-flex justify-content-start" style="padding-left: 5px ;">
+            <a href="" style="font-size: 14px;">Business Start Up Services</a>
+          </div>
+
+          <div class="d-flex justify-content-start" style="padding-left: 5px ;">
+            <a href="" style="font-size: 14px;">Business Marketing Stratergy</a>
+          </div>
+
+        </div>
+        <div style="padding: 20px;" class="col-md-3">
+          <ul class="list-group"></ul>
+          <center>
+            <h6 style="padding-bottom: 3rem;">About Us</h6>
+          </center>
+          <h6 style="font-size: 14px;">Socioad Pvt Ltd is an online marketing firm catering companies reach their Marketing and Branding goals.
+            We help ambitious businesses like yours generate more profits by building awareness, driving web
+            traffic, connecting with customers, and growing overall sales.</h6>
+        </div>
+
+        <div style=" padding: 20px;" class="col-md-3 text">
+          <div style="color:#343a40!important">
+            <div class="d-flex justify-content-center">
+              <h6 style="padding-bottom: 3rem;  text-decoration: underline;"> Contact</h6>
+            </div>
+
+            <div class="  ">
+              <h6> Socio Ad Pvt. Ltd.
+                <br> <br>
+                <h6 style="font-size: 14px;">102, Ecstasy C, Gulawani Maharaj Road, <br> near Karishma Society,
+                  Kothrud, <br> Pune - 411038.</h6>
+            </div>
+            <br>
+            <h6 style="font-size: 14px;"> 8007319653/
+              8007287446
+              /8275371824
+            </h6>
+          </div>
+        </div>
+
+        <div style=" padding: 20px;" class="col-md-3">
+          <div class="d-flex justify-content-center">
+            <h6 style="padding-bottom: 3rem;  text-decoration: underline;">Connect With Us</h6>
+          </div>
+
+          <div class="d-flex justify-content-center" style="padding-bottom: 5px;">
+            <h6 style="font-size: 14px;"> Intagram </h6>&nbsp
+            <!-- <i class="fa fa-2x fa-instagram" style="color: rgb(170, 36, 36);"></i> -->
+          </div>
+
+          <div class="d-flex justify-content-center" style="padding-bottom: 5px;">
+            <h6 style="font-size: 14px;"> Facebook </h6>
+            <!-- <i class="fa fa-2x fa-facebook" style="color: rgb(2, 56, 231);"></i> -->
+          </div>
+
+          <div class="d-flex justify-content-center" style="padding-bottom: 5px;">
+            <h6 style="font-size: 14px;"> Twitter </h6>
+            <!-- <i class="fa fa-2x fa-twitter" style="color: rgb(3, 150, 235);"></i> -->
+          </div>
+
+          <div class="d-flex justify-content-center" style="padding-bottom: 15px;">
+            <h6 style="font-size: 14px;"> Whatsapp </h6>
+          </div>
+
+          <div class="d-flex justify-content-center" style="padding-bottom: 5px; ">
+            <h6 style="font-size: 14px;"> Email</h6>
+          </div>
+
+          <div class="d-flex justify-content-center" style="padding-bottom: 5px;">
+            <h6 style="font-size: 14px;"> info@socioad.in </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <h6 style="font-size: 14px; margin-top: 15px; ">Subscribe To Our News Letter</h6>
+    </div>
+    <center>
+      <div class="d-flex justify-content-center">
+        <i class="fa fa-2x fa-envelope"></i>
+      </div>
+      <input type="text" placeholder="Email" style="margin: 10px;"> <br>
+      <button class="btn btn-success" style="margin-top: 5px;"> Submit</button>
+
+    </center>
+
+
+
+    <div class="d-flex justify-content-center">
+      <h6 style="margin: 20px; font-size: 14px;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Socio Pvt Ltd. <br> All Rights Reserved. © </h6>
+    </div>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+</body>
+
+</html>

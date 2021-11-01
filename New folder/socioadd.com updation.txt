@@ -1,0 +1,59 @@
+
+1 compitablity with all devices
+
+2 resizing of text
+ 
+3 links
+
+4 informative text
+
+5 animation
+
+6 login registration form
+
+7 call links, map links and other links must be active
+ 
+8 using SVGs, Webp images and videos
+ 
+9 use even more from font awesome with some attractive colors
+
+10 caruasol must be responsive and interacative
+
+11 use even more copyright free images
+
+12 active social media links
+
+13 total new pages for login and registration
+
+14 new look
+
+15 font change
+
+16 make package information innteractive
+
+17 client testimonials and bold ratings
+
+18 add https 
+
+19 try to add full image navbar to carausal 
+
+20 try to cut the containers
+
+21 zick zack boxes with progess line and animation
+
+22 Videos on youtube
+
+reference websites
+
+1. https://www.mammut.com/int/en
+
+Date:-23-09-2021
+
+1. background image (mostly in dark )
+2. customer carousal 
+3. testimonial carousal
+4. logo Gif
+5. service highlites
+
+
+
